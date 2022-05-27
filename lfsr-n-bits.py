@@ -1,7 +1,7 @@
 """Implementation of Linear Feedback Shift Register with n cells
 
     This program will generate a cipher sequence (Si) with a n-bit seed. Si will be 2^(n) - 1 bits
-    This kind of encryption is not secure nowadays, it is just for educational purposes, as this cipher key can be easily attack with Berlemkamp-Massey attack.
+    This kind of cipher key is not secure nowadays, it is just for educational purposes, as it can be easily attacked with Berlemkamp-Massey attack.
     We are assuming that the primitive polynomial is x^4 + x + 1
 
     Usage:
